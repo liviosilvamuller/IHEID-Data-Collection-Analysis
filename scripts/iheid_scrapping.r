@@ -16,7 +16,7 @@ library(xml2)
 url_p <- "https://repository.graduateinstitute.ch/search?ln=en&fct__1=PhD+Theses&c=Academic+Departments&c=Academic+Reports&c=Book+Chapters&c=Books&c=Centres+and+Programmes&c=Dataset&c=Journal+Articles&c=Multimedia&c=Thematics&c=Working+Papers&rg=100&jrec=%d"
 
 #creating vector with links to each individual PhD thesis
-map_df(seq(0, 1400, by=100), function(i){
+map_df(seq(0, 1500, by=100), function(i){
   
   page <- read_html(sprintf(url_p,i))
   
