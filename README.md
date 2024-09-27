@@ -5,3 +5,5 @@ This repository stores scripts for data collection and analysis of the Geneva Gr
 It was created within the framework of the Sustainability Target Initiative of the Geneva Graduate Institute. 
 
 The mission of this initiative is to integrate considerations of sustainability into all areas of work at the Institute - as research questions, objects of teaching, and projects of engagement in our daily lives, in Geneva and  the world.
+
+This repository provides scripts for scrapping data from IHEID's website and conducting a basic classification using a bag-of-words approach.
